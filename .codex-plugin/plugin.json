@@ -1,0 +1,28 @@
+{
+  "name": "meta-research-agent",
+  "version": "0.1.0",
+  "description": "Codex skills for neurosurgical systematic reviews and meta-analysis workflows",
+  "author": {
+    "name": "Matheus Rech / Codex port",
+    "url": "https://github.com/matheus-rech"
+  },
+  "homepage": "https://github.com/matheus-rech/meta-agent",
+  "repository": "https://github.com/matheus-rech/meta-agent",
+  "license": "MIT",
+  "keywords": ["systematic-review", "meta-analysis", "neurosurgery", "PRISMA", "risk-of-bias"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Meta Research Agent",
+    "shortDescription": "Systematic-review and meta-analysis workflows for medical research.",
+    "longDescription": "A Codex-native port of Meta Agent's research skills for literature-search planning, structured extraction, risk-of-bias assessment, conventional and network meta-analysis, trial sequential analysis, and PRISMA manuscript drafting.",
+    "developerName": "Matheus Rech / Codex port",
+    "category": "Research",
+    "capabilities": ["Literature review", "Data extraction", "Statistical workflow", "Academic writing"],
+    "defaultPrompt": [
+      "Build a PRISMA-ready systematic review workflow for my research question.",
+      "Help me plan and validate a meta-analysis from this study dataset.",
+      "Assess risk of bias for these included studies."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
